@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: hsl(212, 45%, 89%);
+}
+
+.card{
+    border-radius: 20px;
+    display: block;
+    background: hsl(0, 0%, 100%);
+    width: 17vw;
+    padding: 1vw;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 13px 23px -7px rgba(0, 0, 0, 0.241);
+}
+
+img{
+    border-radius: 10px;
+    width: 15vw;
+}
+
+.title{
+    color: hsl(218, 44%, 22%);
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+
+.litle{
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+}
+
+@media (max-width: 1000px){
+    .card{
+        width: 29vw;
+        padding: 2vw;
+    }
+    img{
+        width: 25vw;
+    }
+}
+
+@media (max-width: 725px){
+    .card{
+        width: 50vw;
+        padding: 5vw;
+    }
+
+    img{
+        width: 25vw;
+    }
+}
+
+@media (max-width: 380px){
+    .card{
+        width: 75vw;
+        padding: 5vw;
+    }
+
+    img{
+        width: 30vw;
+    }
+}
